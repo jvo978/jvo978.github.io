@@ -14,6 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -39,10 +40,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              </li>
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -55,36 +56,17 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block rounded mx-auto" src="img/profile.jpg" alt="">
-        <hr class="star-light">
+        <img class="border-white img-fluid mb-5 d-block rounded mx-auto" src="img/profile.jpg" alt="">
         <h2 class="font-weight-light mb-0">Full-Stack Web Developer</h2>
       </div>
     </header>
-    <section class="portfolio text-white mb-0">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Skills Overview</h2>
-        <hr class="star-dark mb-5">
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-            <ul class="lead text-secondary">
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>HTML</li>
-              <li>SCSS</li>
-            </ul>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead text-secondary">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </div>
-      </div>
-    </section>
-
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="portfolio text-secondary mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
+        <h2 class="text-center text-uppercase text-secondary">About</h2>
+        <br />
+        <p>My name is Jason Vo and I graduated with a bachelors of science in biology. Recently, I decided to step out of my comfort zone and try something new. The idea of building applications using code intrigued me because I saw it as a powerful tool of creativity. Most people do not see the ingenuity required to create a webpage that you can easily view on your browser. As a result, I signed up to General Assembly's Web Development Immersive program to start my new journey in hopes of becoming a full-stack developer. </p>
+        <p>I have over five years of experience working in the biotechnology and life sciences industry. I learned many different types of laboratory techniques throughout the years and the regulations each company had to follow to carry out daily production. I plan to bring my previous experiences into my future endeavors.</p>
         <!-- <div class="row">
         <div class="col-lg-4 ml-auto">
         <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -94,20 +76,57 @@
     </div>
   </div> -->
   <div class="text-center mt-4">
-    <a class="btn btn-xl btn-outline-light" href="#">
+    <a class="btn btn-xl btn-outline-dark" href="#">
       <i class="fa fa-download mr-2"></i>
       Resume
     </a>
   </div>
 </div>
 </section>
+    <section class="bg-primary text-white mb-0">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white mb-0">Skills Overview</h2>
+      </div><br />
+      <br />
+      <div class="row text-center">
+        <div class="col-md-4">
+            <ul class="list-unstyled lead text-white">
+              <li><i style='font-size:4rem;' class="devicon-javascript-plain"></i></li>
+              <li><i style='font-size:4rem;' class="devicon-bootstrap-plain"></i></li>
+              <li><i style='font-size:4rem;' class="devicon-ruby-plain-wordmark"></i></li>
+              <li><i style='font-size:4rem;' class="devicon-rails-plain-wordmark"></i></li>
+              <li><i style='font-size:4rem;' class="devicon-nodejs-plain"></i></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-unstyled lead text-white">
+            <li><i style='font-size:4rem;' class="devicon-html5-plain-wordmark"></i></li>
+            <li><i style='font-size:4rem;' class="devicon-jquery-plain-wordmark"></i></li>
+            <li><i style='font-size:4rem;' class="devicon-mongodb-plain-wordmark"></i></li>
+            <li><i style='font-size:4rem;' class="devicon-postgresql-plain-wordmark"></i></li>
+            <li><i style='font-size:4rem;' class="devicon-sass-original"></i></li>
+          </ul>
+        </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled lead text-white">
+          <li><i style='font-size:4rem;' class="devicon-heroku-original-wordmark"></i></li>
+          <li><i style='font-size:4rem;' class="devicon-atom-original-wordmark"></i></li>
+          <li><i style='font-size:4rem;' class="devicon-css3-plain-wordmark"></i></li>
+          <li><i style='font-size:4rem;' class="devicon-express-original-wordmark"></i></li>
+          <li><i style='font-size:4rem;' class="devicon-git-plain-wordmark"></i></li>
+        </ul>
+  </div>
+</div>
+    </section>
+
 
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
+        <br />
+        <br />
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -116,7 +135,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/tictactoe.jpg" alt="TicTacToe">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -139,7 +158,7 @@
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -148,8 +167,8 @@
               </div>
               <img class="img-fluid" src="img/portfolio/game.png" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -158,8 +177,8 @@
               </div>
               <img class="img-fluid" src="img/portfolio/safe.png" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
+          </div> -->
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -168,7 +187,7 @@
               </div>
               <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -250,7 +269,7 @@
                 </a>
               </li> -->
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/jasonvvo/">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/jasonvvo/" target='._blank'>
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
@@ -260,8 +279,8 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="tel:9783288882">
-                  <i class="fa fa-mobile"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/jvo978" target='._blank'>
+                  <i class="fa fa-github"></i>
                 </a>
               </li>
               <!-- <li class="list-inline-item">
@@ -304,11 +323,12 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-0">Tic-Tac-Toe</h2>
+              <img class="img-fluid mb-5" src="img/portfolio/tictactoe.jpg" alt="TicTacToe" height="325" width="325">
+              <p>Front end application that follows the basic rules of tic tac toe game logic and built using JavaScript, jQuery, html, scss, bootstrap.</p>
+              <p><a href="https://github.com/jvo978/tic-tac-toe-client" target='_blank'>Tic-Tac-Toe Github Repository</a></p>
+              <p><a href="https://jvo978.github.io/tic-tac-toe-client/" target='_blank'>Tic-Tac-Toe Live Link</a></p>
+              <a class="btn btn-primary btn-md rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -327,7 +347,6 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -349,7 +368,6 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -371,7 +389,6 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -393,7 +410,6 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
@@ -415,7 +431,6 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
